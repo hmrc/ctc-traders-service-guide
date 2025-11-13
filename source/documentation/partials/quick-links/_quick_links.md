@@ -1,0 +1,8 @@
+- [CTC Traders API roadmap](https://developer.service.hmrc.gov.uk/roadmaps/common-transit-convention-traders-roadmap/)
+- [NCTS phase 5 technical interface specification](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-tis/)
+- [CTC Traders API phase 5 service guide](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-service-guide/)
+- [CTC Traders API phase 5 testing guide](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-testing-guide/)
+- [CTC Guarantee Balance roadmap](https://developer.service.hmrc.gov.uk/roadmaps/ctc-guarantee-balance-roadmap/)
+- [CTC Guarantee Balance phase 5 testing guide](https://developer.service.hmrc.gov.uk/guides/ctc-guarantee-balance-phase5-testing-guide/)
+- [CTC Guarantee Balance phase 5 service guide](https://developer.service.hmrc.gov.uk/guides/ctc-guarantee-balance-phase5-service-guide/)
+- [NCTS API Documentation v2.1](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/2.1)

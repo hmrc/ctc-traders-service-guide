@@ -1,0 +1,1 @@
+You can find the changelog for this document in the [ctc-traders-service-guide](https://github.com/hmrc/ctc-traders-service-guide/wiki/Changelog) Github wiki.

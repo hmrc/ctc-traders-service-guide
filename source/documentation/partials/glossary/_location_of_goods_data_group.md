@@ -10,18 +10,16 @@ Location designations have been revised for NCTS5 as follows.
 
 You must provide the location of goods before the release of a transit movement, either in an IE015 message for a standard departure or in an IE170 message for a pre-lodged departure. You must specify both the type of location (using a single alphabetic character as shown in the table), and the qualifier of that location. The location qualifier is the means you will use to provide the exact locations, such as  address, UN Locode, and so on.
 
-Only certain qualifiers can be used with specific location types. The following table shows the acceptable location type and qualifier combinations (indicated by square brackets []) permitted for NCTS5.
-
 
 | Location qualifier            | Location type code A | Location type code B | Location type code C | Location type code D |
 |-------------------------------|----------------------|----------------------|----------------------|----------------------|
-| T (Postal code)               | A + T	               | B + T	               | [C + T]              | [D + T]              |
-| U (UN/Locode)                 | [A + U]              | B + U	               | [C + U]              | [D + U]              |
-| V (Customs office identifier) | [A + V]              | B + V	               | C + V	               | D + V                |
-| W (GNSS coordinates)          | A + W	               | B + W	               | [C + W]              | [D + W]              |
-| X (EORI number)               | A + X	               | B + X	               | [C + X]              | D + X                |
-| Y (Authorisation number)      | A + Y	               | [B + Y]	             | C + Y	               | D + Y                |
-| Z (Address)                   | A + Z	               | B + Z	               | [C + Z]              | D + Z                |
+| T (Postal code)               | A + T	               | B + T	               | C + T                | D + T                |
+| U (UN/Locode)                 | A + U                | B + U	               | C + U                | D + U                |
+| V (Customs office identifier) | A + V                | B + V	               | C + V	               | D + V                |
+| W (GNSS coordinates)          | A + W	               | B + W	               | C + W                | D + W                |
+| X (EORI number)               | A + X	               | B + X	               | C + X                | D + X                |
+| Y (Authorisation number)      | A + Y	               | B + Y                | C + Y	               | D + Y                |
+| Z (Address)                   | A + Z	               | B + Z	               | C + Z                | D + Z                |
 
 
 Although these are all combinations that NCTS5 supports, see the Location of Goods data group in [Declaration data](#declaration-data) for acceptable practical usage in the UK.

@@ -1,0 +1,7 @@
+After receipt of an initial IE043 (‘Unloading Permission‘) message granting permission to unload, unloading should commence when possible and an IE044 (‘Unloading Remarks‘) message should be sent by the authorised consignee. This IE044 message must confirm whether unloading has been completed or is currently incomplete, and whether the now arrived consignment conforms to the declaration (at the stage of the IE029 ‘Release For Transit‘ message).
+
+At any time, the goods may be selected for control by the office of destination, and release of the goods from the transit procedure can be withheld pending an investigation by customs.
+
+There is no obligation to provide an IE044 message indicating that unloading is not yet complete (indicated by setting data element ‘UNLOADING REMARK.Unloading completion‘ to ‘0‘, see rule [G0186](/guides/ctc-traders-phase5-tis/documentation/rules-g.html#g0186)). However, at the discretion of the authorised consignee, an IE044 message can be used to notify the office of destination of an interruption or delay to the unloading process.
+
+An IE044 message confirming that unloading is not yet complete will be reviewed by the office of destination, and a subsequent IE043 message with permission to continue unloading will be sent to the authorised consignee. When unloading is finally completed, the authorised consignee should send an IE044 message with data element ‘UNLOADING REMARK.Unloading completion‘ set to ‘1‘.

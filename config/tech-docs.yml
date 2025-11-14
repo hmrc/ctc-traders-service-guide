@@ -1,5 +1,5 @@
 # Human read-able name for this site, displayed in the header bar
-service_name: CTC traders service guide
+service_name: CTC Traders service guide
 
 # The route that will be used to access this site (with tailing slash)
 service_link: /guides/ctc-traders-service-guide/
@@ -27,7 +27,7 @@ footer_links:
   Accessibility statement: https://www.tax.service.gov.uk/accessibility-statement/hmrc-developer-hub
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
-enable_search: false
+enable_search: true
 
 # Enables the tracking consent banner
 tracking_consent_frontend:

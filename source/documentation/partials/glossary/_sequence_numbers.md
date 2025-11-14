@@ -1,0 +1,5 @@
+Due to the widespread use of data group multiplicity within NCTS5, sequence numbers have been introduced to indicate intended use of the same data group multiple times to convey different data. The sequence number essentially provides an audit number for every reuse of a specific data group that has the capacity to be used more than once.
+
+Generally, a sequence numbers starts at `1` and increase by 1 incrementally for each instance of the same data group. For example, the Guarantee data group can be used up to 9 times allowing multiple different guarantee types to be used to cover the value of the duties at risk during the goods movement. The first guarantee block (for, say, Type 1 guarantees) would have sequence number `1`, the second guarantee block would have sequence number `2`, and so on.
+
+**Note:** Although sequence numbers can be entered manually by declarants, it is more efficient to automate them for the traders you serve to prevent unnecessary rejections and to optimise efficiency.

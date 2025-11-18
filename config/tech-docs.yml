@@ -2,7 +2,7 @@
 service_name: CTC Traders service guide
 
 # The route that will be used to access this site (with tailing slash)
-service_link: /guides/ctc-traders-service-guide/
+service_link: /guides/ctc-traders-service-guide
 use_service_link_for_favicon: true
 
 # ================================================

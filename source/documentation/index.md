@@ -104,8 +104,11 @@ Traders upgrading their existing API must take the following actions:
 
 ## High level functional interaction map
 
-<img src="../figures/e2e.drawio.svg" alt="Declaration amendment accepted/rejected. Flow is described in this section." />
-<a href="../figures/e2e.drawio.svg" target="_blank">Open the diagram in a new tab.</a>
+![Declaration amendment accepted/rejected. Flow is described in this section.](../figures/e2e.drawio.svg)
+
+<p class="govuk-body-l" style="font-size: 24px;">
+  <a href="../figures/e2e.drawio.svg" class="govuk-link">Open the diagram in a new tab.</a>
+</p>
 
 ## API Definitions
 
